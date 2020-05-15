@@ -1,0 +1,37 @@
+{
+    "short_name": "Funtility",
+    "name": "Funtility PWA",
+    "description": "A Funtility Progressive Web Application",
+    "icons": [
+        {
+            "src": "./images/PWA/launcher-icon-48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/PWA/launcher-icon-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/PWA/launcher-icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/PWA/launcher-icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/PWA/launcher-icon-256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "./?utm_source=web_app_manifest",
+    "display": "standalone",
+    "orientation": "landscape",
+    "theme_color": "#29BDBB",
+    "background_color": "#29BDBB"
+}
