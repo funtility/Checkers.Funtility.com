@@ -77,6 +77,7 @@ main {
 
 .board {
     background-color: purple;
+    width: 100%;
 }
 
 .side-panel {
@@ -84,15 +85,39 @@ main {
 }
 
 .cell {
+    display: inline-block;
     width: 50px;
     height: 50px;
     border: solid 1px black;
+    color: darkviolet;
 }
 
 .cell.odd {
     background-color: red;
+    color: black;
 }
 
 .cell.even {
     background-color: black;
+    color: red;
+}
+
+.player1{
+    background-color: orange !important;
+}
+
+.player1.queend{
+    background-color: darkorange !important;
+}
+
+.player2{
+    background-color: lightgreen !important;
+}
+
+.player2.queend{
+    background-color: green !important;
+}
+
+.row {
+    grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
 }
