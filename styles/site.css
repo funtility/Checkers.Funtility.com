@@ -1,7 +1,7 @@
 * {
     margin: 0;
     font-family: sans-serif;
-    color: rgb(0,120,175);
+    /* color: rgb(0,120,175); */
 }
 
 body {
@@ -18,9 +18,7 @@ body {
 
 header {
     display: grid;
-    /* background: linear-gradient(270deg, rgb(120,200,280), rgb(255,255,255) 100%);     */
     background: rgb(64,64,64);
-    /* border-bottom: solid 3px rgba(100,120,155,.2); */    
     border-bottom: solid 3px black;
     padding: 10px 20px;
 }
